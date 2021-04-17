@@ -24,6 +24,10 @@ public class ShipScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (!GameController.IsStarted())
+        {
+            return;
+        }
         // 
         // Лететь влево или вправо
         // Лететь вперед или назад
@@ -46,7 +50,7 @@ public class ShipScript : MonoBehaviour
         if (Time.time > nextShotTime && Input.GetButton("Fire1"))
         {
             Instantiate(LaserShot, LaserGun.transform.position, Quaternion.identity);
-            nextShotTime+=shotDelay;
+            nextShotTime = shotDelay + Time.time;
         }
     }
 }
