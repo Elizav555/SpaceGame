@@ -5,6 +5,8 @@ using UnityEngine;
 public class ShipScript : MonoBehaviour
 {
     public GameObject LaserGun;
+    public GameObject RightGun;
+    public GameObject LeftGun;
     public GameObject LaserShot;
     float nextShotTime;
     public float shotDelay;
@@ -50,6 +52,8 @@ public class ShipScript : MonoBehaviour
         if (Time.time > nextShotTime && Input.GetButton("Fire1"))
         {
             Instantiate(LaserShot, LaserGun.transform.position, Quaternion.identity);
+            Instantiate(LaserShot, LeftGun.transform.position, Quaternion.identity);
+            Instantiate(LaserShot, RightGun.transform.position, Quaternion.identity);
             nextShotTime = shotDelay + Time.time;
         }
     }
