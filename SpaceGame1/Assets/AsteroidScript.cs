@@ -30,7 +30,6 @@ public class AsteroidScript : MonoBehaviour
         if (other.tag == "Player")
         {
             Instantiate(PlayerExplosion, other.transform.position, Quaternion.identity);
-            GameController.increaseScore(-100);
             GameController.PlayerIsDead();
         }
         else

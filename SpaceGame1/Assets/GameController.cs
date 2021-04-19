@@ -29,7 +29,7 @@ public class GameController : MonoBehaviour
             menu.gameObject.SetActive(false);
             started = true;
             player.SetActive(true);
-            player.transform.position = new Vector3(0, 0, 0);
+            player.transform.position = new Vector3(0, 0, -72);
         });        
         respawn.onClick.AddListener(delegate
         {
@@ -52,6 +52,6 @@ public class GameController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        scoreLabel.text = "Score: " + score;
+        scoreLabel.text = score.ToString();
     }
 }
