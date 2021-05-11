@@ -6,6 +6,7 @@ TagManager:
   tags:
   - FxTemporaire
   - Asteroid
+  - EnemyShip
   layers:
   - Default
   - TransparentFX

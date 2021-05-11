@@ -5,6 +5,8 @@ using UnityEngine;
 public class ShipScript : MonoBehaviour
 {
     public GameObject LaserGun;
+    public GameObject RightGun;
+    public GameObject LeftGun;
     public GameObject LaserShot;
     float nextShotTime;
     public float shotDelay;
@@ -24,6 +26,10 @@ public class ShipScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (!GameController.IsStarted())
+        {
+            return;
+        }
         // 
         // Лететь влево или вправо
         // Лететь вперед или назад
@@ -43,10 +49,12 @@ public class ShipScript : MonoBehaviour
         Ship.position = new Vector3(correctX, 0, correctZ);
 
         // Стрелять
-        if (Time.time > nextShotTime && Input.GetButton("Fire1"))
+        if (Time.time > nextShotTime && Input.GetButton("Fire1") || Input.GetKeyUp(KeyCode.Space))
         {
             Instantiate(LaserShot, LaserGun.transform.position, Quaternion.identity);
-            nextShotTime+=shotDelay;
+            Instantiate(LaserShot, LeftGun.transform.position, Quaternion.identity);
+            Instantiate(LaserShot, RightGun.transform.position, Quaternion.identity);
+            nextShotTime = shotDelay + Time.time;
         }
     }
 }

@@ -18,6 +18,10 @@ public class SpawnScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(!GameController.IsStarted())
+        {
+            return;
+        }
         if (Time.time > nextLaunchTime)
         {
             GameObject launchedAsteroid = Instantiate(Asteroid, transform.position, Quaternion.identity);

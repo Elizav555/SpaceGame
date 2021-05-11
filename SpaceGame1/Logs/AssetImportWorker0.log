@@ -1,0 +1,748 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.3f1 (76626098c1c4) revision 7758432'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19041.928; Version 2004; 64bit' Language: 'ru' Physical Memory: 8060 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.3f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Valeria/Desktop/HOLY/SpaceGame-develop/SpaceGame1
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50237
+Successfully changed project path to: C:/Users/Valeria/Desktop/HOLY/SpaceGame-develop/SpaceGame1
+C:/Users/Valeria/Desktop/HOLY/SpaceGame-develop/SpaceGame1
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 29.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.3f1 (76626098c1c4)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Valeria/Desktop/HOLY/SpaceGame-develop/SpaceGame1/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f99)
+    Vendor:   
+    VRAM:     3962 MB
+    Driver:   27.21.14.5256
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56364
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005549 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 37.69 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.659 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002468 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.307 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1143 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 59.9 MB.
+System memory in use after: 60.0 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1589.
+Total: 2.885800 ms (FindLiveObjects: 0.227600 ms CreateObjectMapping: 0.150500 ms MarkObjects: 2.374300 ms  DeleteObjects: 0.132300 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Metal textures pack/pattern 11/Metal pattern 11.mat
+  artifactKey: Guid(2a70eeb1a8730dc4f8aef008265c64be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Metal textures pack/pattern 11/Metal pattern 11.mat using Guid(2a70eeb1a8730dc4f8aef008265c64be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed95f93d64f13fcb3887af3b2d7603e0') in 0.415086 seconds
+  Import took 0.417749 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000429 seconds.
+  path: Assets/Metal textures pack/pattern 04/Metal pattern 04.mat
+  artifactKey: Guid(5b8c01216e1b54c4eb59ab00cf82bd05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Metal textures pack/pattern 04/Metal pattern 04.mat using Guid(5b8c01216e1b54c4eb59ab00cf82bd05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b463a4172c5ca3aefd6f42c8a54b75e') in 0.023230 seconds
+  Import took 0.025767 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000408 seconds.
+  path: Assets/Metal textures pack/pattern 18/Metal pattern 18.mat
+  artifactKey: Guid(100da24c135d0774e9573b9ec5bb1439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Metal textures pack/pattern 18/Metal pattern 18.mat using Guid(100da24c135d0774e9573b9ec5bb1439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f91cc59f6c0fb87c499deb03b13d5fab') in 0.021052 seconds
+  Import took 0.023739 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000459 seconds.
+  path: Assets/Metal textures pack/pattern 05/Metal pattern 05.mat
+  artifactKey: Guid(35fc0bb8c874eba48b22f60d878ffbe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Metal textures pack/pattern 05/Metal pattern 05.mat using Guid(35fc0bb8c874eba48b22f60d878ffbe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bb470105485b314cb55ab8bfa4661a3') in 0.024830 seconds
+  Import took 0.027427 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000371 seconds.
+  path: Assets/Metal textures pack/pattern 13/Metal pattern 13.mat
+  artifactKey: Guid(f856ed6436664034383d5fa42b86b206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Metal textures pack/pattern 13/Metal pattern 13.mat using Guid(f856ed6436664034383d5fa42b86b206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bbf63437a1b9c34935550bb84bcee76') in 0.028539 seconds
+  Import took 0.031751 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/Metal textures pack/pattern 25/Metal pattern 25.mat
+  artifactKey: Guid(3e7b594893498ec42932503e8327d53c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Metal textures pack/pattern 25/Metal pattern 25.mat using Guid(3e7b594893498ec42932503e8327d53c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ec147894aa3a00bc6e0a00cd38d2cf8') in 0.028535 seconds
+  Import took 0.032621 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000348 seconds.
+  path: Assets/Metal textures pack/pattern 15/Metal pattern 15.mat
+  artifactKey: Guid(8e16e27f5d5118041b14897f71fa1532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Metal textures pack/pattern 15/Metal pattern 15.mat using Guid(8e16e27f5d5118041b14897f71fa1532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b562e20da54ce64daf86bcfd1ff1afb') in 0.024593 seconds
+  Import took 0.027932 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000705 seconds.
+  path: Assets/Metal textures pack/pattern 28/Metal pattern 28.mat
+  artifactKey: Guid(582d2cfd4842c954d82eba0d037da054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Metal textures pack/pattern 28/Metal pattern 28.mat using Guid(582d2cfd4842c954d82eba0d037da054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '609791dc2a6d3b9d5d44a695e72f4c08') in 0.029398 seconds
+  Import took 0.033826 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000460 seconds.
+  path: Assets/Metal textures pack/pattern 06/Metal pattern 06.mat
+  artifactKey: Guid(1b1a016856447204289da1fec2ee17e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Metal textures pack/pattern 06/Metal pattern 06.mat using Guid(1b1a016856447204289da1fec2ee17e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eb7a1b4bd914d6e6b74bec757d0a145') in 0.271377 seconds
+  Import took 0.274364 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/Metal textures pack/pattern 29/Metal pattern 29.mat
+  artifactKey: Guid(374f7fc393e611f42b1b1c62a25ad445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Metal textures pack/pattern 29/Metal pattern 29.mat using Guid(374f7fc393e611f42b1b1c62a25ad445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11ab41de290dae5fe454a88ca506cfa3') in 0.026785 seconds
+  Import took 0.030645 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Assets/Metal textures pack/pattern 34/Metal pattern 34.mat
+  artifactKey: Guid(8979de94ad943864a8a3c0c5ff620b01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Metal textures pack/pattern 34/Metal pattern 34.mat using Guid(8979de94ad943864a8a3c0c5ff620b01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41b78d6939e065cb1ebcb5aedee4ceed') in 0.028644 seconds
+  Import took 0.034762 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/Metal textures pack/pattern 37/Metal pattern 37.mat
+  artifactKey: Guid(67d2236b34d423b46a514ea817833ab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Metal textures pack/pattern 37/Metal pattern 37.mat using Guid(67d2236b34d423b46a514ea817833ab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29809098345b98eaa2433e22e086ce28') in 0.030148 seconds
+  Import took 0.033942 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000380 seconds.
+  path: Assets/Metal textures pack/pattern 42/Metal pattern 42.mat
+  artifactKey: Guid(645955e5c3a3a1f4fb83978d2a63240f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Metal textures pack/pattern 42/Metal pattern 42.mat using Guid(645955e5c3a3a1f4fb83978d2a63240f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10499eaf08f4e8376064ef30f6728eaf') in 0.042101 seconds
+  Import took 0.045262 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000373 seconds.
+  path: Assets/Metal textures pack/pattern 02/Metal pattern 02.mat
+  artifactKey: Guid(a792762246421814b9b893a7e580ea87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Metal textures pack/pattern 02/Metal pattern 02.mat using Guid(a792762246421814b9b893a7e580ea87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1374012c297dd201220d826fa0e9682f') in 0.211960 seconds
+  Import took 0.214864 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000426 seconds.
+  path: Assets/Metal textures pack/pattern 30/Metal pattern 30.mat
+  artifactKey: Guid(6412fc3d848100c499da33874dbf7c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Metal textures pack/pattern 30/Metal pattern 30.mat using Guid(6412fc3d848100c499da33874dbf7c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8404bac1b103941456e8b6bd85274d9') in 0.019775 seconds
+  Import took 0.022316 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/Metal textures pack/pattern 40/Metal pattern 40.mat
+  artifactKey: Guid(c8dfbb59b2b6bf643a87072f155a01de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Metal textures pack/pattern 40/Metal pattern 40.mat using Guid(c8dfbb59b2b6bf643a87072f155a01de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edecbabeda86e7f737b0b93c4206c88c') in 0.021622 seconds
+  Import took 0.024497 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/Metal textures pack/pattern 32/Metal pattern 32.mat
+  artifactKey: Guid(13f617a7030a5904592f3220168f2363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Metal textures pack/pattern 32/Metal pattern 32.mat using Guid(13f617a7030a5904592f3220168f2363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68f12ceab3cfdd29ef0e465594c2f3a3') in 0.020810 seconds
+  Import took 0.023616 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000563 seconds.
+  path: Assets/Metal textures pack/pattern 08/Metal pattern 08.mat
+  artifactKey: Guid(3fc3bbc4a9839d24eb455f5e511a1c39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Metal textures pack/pattern 08/Metal pattern 08.mat using Guid(3fc3bbc4a9839d24eb455f5e511a1c39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21494577954e8317f2dffdad2df4269b') in 0.026998 seconds
+  Import took 0.030007 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000381 seconds.
+  path: Assets/Metal textures pack/pattern 39/Metal pattern 39.mat
+  artifactKey: Guid(b7c8a2b9727887c4ea787b6a172ba8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Metal textures pack/pattern 39/Metal pattern 39.mat using Guid(b7c8a2b9727887c4ea787b6a172ba8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5aace3d81aa50dc33c4649e2de98d13c') in 0.035052 seconds
+  Import took 0.038438 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/Metal textures pack/pattern 10/Metal pattern 10.mat
+  artifactKey: Guid(4bb12e2031b9add4ab7d29bb4095eadd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Metal textures pack/pattern 10/Metal pattern 10.mat using Guid(4bb12e2031b9add4ab7d29bb4095eadd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae539a29d54cb24e0aad148a926039dc') in 0.026141 seconds
+  Import took 0.031099 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000476 seconds.
+  path: Assets/Metal textures pack/pattern 41/Metal pattern 41.mat
+  artifactKey: Guid(d953cc3916a287a4bb860d1b165577c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Metal textures pack/pattern 41/Metal pattern 41.mat using Guid(d953cc3916a287a4bb860d1b165577c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72654f3c8593e0d8278cd3acacea54fc') in 0.028352 seconds
+  Import took 0.031863 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000355 seconds.
+  path: Assets/Metal textures pack/pattern 38/Metal pattern 38.mat
+  artifactKey: Guid(8faba1f5a0ad1ac4a80921e7fb6aad98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Metal textures pack/pattern 38/Metal pattern 38.mat using Guid(8faba1f5a0ad1ac4a80921e7fb6aad98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c00c57a89d876fecdf982ccb768670b7') in 0.038434 seconds
+  Import took 0.041804 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000345 seconds.
+  path: Assets/Metal textures pack/pattern 26/Metal pattern 26.mat
+  artifactKey: Guid(10caedb19710e1b4fb01d862af4fdc69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Metal textures pack/pattern 26/Metal pattern 26.mat using Guid(10caedb19710e1b4fb01d862af4fdc69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6e8524ff8d34e2be020a1f6c98cff76') in 0.027620 seconds
+  Import took 0.031142 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000550 seconds.
+  path: Assets/Metal textures pack/pattern 09/Metal pattern 09.mat
+  artifactKey: Guid(c9aa9ee84721eb7408ff140756a7d217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Metal textures pack/pattern 09/Metal pattern 09.mat using Guid(c9aa9ee84721eb7408ff140756a7d217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13b401c481a35096d9ac3c4e23e15b43') in 0.025020 seconds
+  Import took 0.029002 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000598 seconds.
+  path: Assets/Metal textures pack/pattern 12/Metal pattern 12.mat
+  artifactKey: Guid(bdadbd86e36176342bd968015867f5e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Metal textures pack/pattern 12/Metal pattern 12.mat using Guid(bdadbd86e36176342bd968015867f5e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd944cfd5b4359ea099a160ee89fc06cb') in 0.041769 seconds
+  Import took 0.046336 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000377 seconds.
+  path: Assets/Metal textures pack/pattern 16/Metal pattern 16.mat
+  artifactKey: Guid(fab3fe7f6e5a1ca449b9907c17526fdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Metal textures pack/pattern 16/Metal pattern 16.mat using Guid(fab3fe7f6e5a1ca449b9907c17526fdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '582a3fda762633eeea648d6ca3a3ac61') in 0.030548 seconds
+  Import took 0.035140 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000741 seconds.
+  path: Assets/Metal textures pack/pattern 23/Metal pattern 23.mat
+  artifactKey: Guid(5fec77b5982ea3348b5be556ec9afba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Metal textures pack/pattern 23/Metal pattern 23.mat using Guid(5fec77b5982ea3348b5be556ec9afba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00954baf37572d14c6618f4877121ee2') in 0.025702 seconds
+  Import took 0.034005 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/Metal textures pack/pattern 03/Metal pattern 03.mat
+  artifactKey: Guid(5cc7ebbd2acd2764e88237b9e362dd82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Metal textures pack/pattern 03/Metal pattern 03.mat using Guid(5cc7ebbd2acd2764e88237b9e362dd82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f06c3c45caecb4253b4e4ce852d51cc9') in 0.027633 seconds
+  Import took 0.031243 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000692 seconds.
+  path: Assets/Metal textures pack/pattern 07/Metal pattern 07.mat
+  artifactKey: Guid(c195b1b9ae19d064082c33a22dc5a0f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Metal textures pack/pattern 07/Metal pattern 07.mat using Guid(c195b1b9ae19d064082c33a22dc5a0f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26a3d8b98cb432bc63428fd8c8c6a2dd') in 0.025984 seconds
+  Import took 0.029589 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000422 seconds.
+  path: Assets/Metal textures pack/pattern 21/Metal pattern 21.mat
+  artifactKey: Guid(f0babe7fc47a4b14f809e3eb0aaa8080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Metal textures pack/pattern 21/Metal pattern 21.mat using Guid(f0babe7fc47a4b14f809e3eb0aaa8080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '943de7dff09fb6d8e6d8c56f06fc22dd') in 0.026177 seconds
+  Import took 0.031074 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000455 seconds.
+  path: Assets/Metal textures pack/pattern 24/Metal pattern 24.mat
+  artifactKey: Guid(a8b04144f147be6489581d4fc35eedca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Metal textures pack/pattern 24/Metal pattern 24.mat using Guid(a8b04144f147be6489581d4fc35eedca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2b3a8d1f26bdb21dbc439fae6c52b33') in 0.034544 seconds
+  Import took 0.038767 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000432 seconds.
+  path: Assets/Metal textures pack/pattern 17/Metal pattern 17.mat
+  artifactKey: Guid(93631b8daabe4cc4ab9a5e3832f4f4c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Metal textures pack/pattern 17/Metal pattern 17.mat using Guid(93631b8daabe4cc4ab9a5e3832f4f4c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd5dd995ae9c7a68b144e75d2fa87461') in 0.024619 seconds
+  Import took 0.028342 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/Metal textures pack/pattern 19/Metal pattern 19.mat
+  artifactKey: Guid(ce088b712c3a9744c8c5baf1f1c153bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Metal textures pack/pattern 19/Metal pattern 19.mat using Guid(ce088b712c3a9744c8c5baf1f1c153bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a5fca67dbd575b0eaf1fabe44584b4b') in 0.027175 seconds
+  Import took 0.031207 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/Metal textures pack/pattern 01/Metal pattern 01.mat
+  artifactKey: Guid(37db27cd90bcb064daf2429fa42e022f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Metal textures pack/pattern 01/Metal pattern 01.mat using Guid(37db27cd90bcb064daf2429fa42e022f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f08fb2456e9b85e0cf0ac29e6479cc73') in 0.036604 seconds
+  Import took 0.039910 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/Metal textures pack/pattern 20/Metal pattern 20.mat
+  artifactKey: Guid(3cf0d366a27f36241819d21611014832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Metal textures pack/pattern 20/Metal pattern 20.mat using Guid(3cf0d366a27f36241819d21611014832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3aa14589bbc9d5b47ee1b1626b92336e') in 0.026384 seconds
+  Import took 0.031809 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Metal textures pack/pattern 14/Metal pattern 14.mat
+  artifactKey: Guid(098a0d407d71528439bf8743ef556286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Metal textures pack/pattern 14/Metal pattern 14.mat using Guid(098a0d407d71528439bf8743ef556286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7de9dd71f5f7eafc587bec1fe05c5c81') in 0.026846 seconds
+  Import took 0.031994 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000388 seconds.
+  path: Assets/Metal textures pack/pattern 36/Metal pattern 36.mat
+  artifactKey: Guid(b581dd7f344f54a4a9477210a69989ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Metal textures pack/pattern 36/Metal pattern 36.mat using Guid(b581dd7f344f54a4a9477210a69989ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22d7ec0d7d71afa4672480e1ac043805') in 0.025677 seconds
+  Import took 0.029100 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/Metal textures pack/pattern 35/Metal pattern 35.mat
+  artifactKey: Guid(9e52c53a0d29f2c49adf71e8cc6ca46f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Metal textures pack/pattern 35/Metal pattern 35.mat using Guid(9e52c53a0d29f2c49adf71e8cc6ca46f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd89cb86f33981c882dc6c1c9f9f1c0c7') in 0.023985 seconds
+  Import took 0.028093 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000470 seconds.
+  path: Assets/Metal textures pack/pattern 33/Metal pattern 33.mat
+  artifactKey: Guid(ca951a36bb708fa4596ab58ae6551bed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Metal textures pack/pattern 33/Metal pattern 33.mat using Guid(ca951a36bb708fa4596ab58ae6551bed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d8a1eab29955e9b09b71edfa2ffbad1') in 0.028931 seconds
+  Import took 0.032315 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/Metal textures pack/pattern 27/Metal pattern 27.mat
+  artifactKey: Guid(093b8460bff837e41bf64ba390b5489f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Metal textures pack/pattern 27/Metal pattern 27.mat using Guid(093b8460bff837e41bf64ba390b5489f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81ac3ce9931818997680baf923f95a00') in 0.034873 seconds
+  Import took 0.038910 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000563 seconds.
+  path: Assets/Metal textures pack/pattern 22/Metal pattern 22.mat
+  artifactKey: Guid(9c8aa0e4c66fca34b82c5137d2fe8512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Metal textures pack/pattern 22/Metal pattern 22.mat using Guid(9c8aa0e4c66fca34b82c5137d2fe8512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3db24274143934f32c711cbdf42d6d15') in 0.039813 seconds
+  Import took 0.043443 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/Metal textures pack/pattern 31/Metal pattern 31.mat
+  artifactKey: Guid(4f15a312657081d46bb9ca29bc7ccdc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Metal textures pack/pattern 31/Metal pattern 31.mat using Guid(4f15a312657081d46bb9ca29bc7ccdc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b49946d1100ba5f07d05093c6f528ab6') in 0.026746 seconds
+  Import took 0.029948 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000646 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.999 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1125 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 64.9 MB.
+System memory in use after: 65.0 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1640.
+Total: 2.206300 ms (FindLiveObjects: 0.231900 ms CreateObjectMapping: 0.107800 ms MarkObjects: 1.843900 ms  DeleteObjects: 0.020900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000999 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.321 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1125 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 64.9 MB.
+System memory in use after: 65.0 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1643.
+Total: 4.916500 ms (FindLiveObjects: 0.591400 ms CreateObjectMapping: 0.263700 ms MarkObjects: 4.038100 ms  DeleteObjects: 0.020600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000706 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.997 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1125 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 64.9 MB.
+System memory in use after: 65.0 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1646.
+Total: 2.910400 ms (FindLiveObjects: 0.350000 ms CreateObjectMapping: 0.077100 ms MarkObjects: 2.464300 ms  DeleteObjects: 0.017000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000595 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.956 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1125 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.0 MB.
+System memory in use after: 65.1 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1649.
+Total: 2.407500 ms (FindLiveObjects: 0.276900 ms CreateObjectMapping: 0.115200 ms MarkObjects: 1.969200 ms  DeleteObjects: 0.044800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000649 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.047 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1125 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.0 MB.
+System memory in use after: 65.1 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1652.
+Total: 2.462100 ms (FindLiveObjects: 0.326200 ms CreateObjectMapping: 0.136700 ms MarkObjects: 1.974800 ms  DeleteObjects: 0.022600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000648 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.961 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1125 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.0 MB.
+System memory in use after: 65.1 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1655.
+Total: 2.776600 ms (FindLiveObjects: 0.454000 ms CreateObjectMapping: 0.219200 ms MarkObjects: 2.083000 ms  DeleteObjects: 0.018500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002580 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.282 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1125 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.0 MB.
+System memory in use after: 65.1 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1658.
+Total: 4.713900 ms (FindLiveObjects: 0.411300 ms CreateObjectMapping: 0.068400 ms MarkObjects: 4.211700 ms  DeleteObjects: 0.021100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000872 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.144 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1125 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.0 MB.
+System memory in use after: 65.1 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1661.
+Total: 2.554100 ms (FindLiveObjects: 0.329100 ms CreateObjectMapping: 0.095000 ms MarkObjects: 2.083300 ms  DeleteObjects: 0.044900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000557 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.037 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1125 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.0 MB.
+System memory in use after: 65.1 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1664.
+Total: 2.880200 ms (FindLiveObjects: 0.235000 ms CreateObjectMapping: 0.063600 ms MarkObjects: 2.561500 ms  DeleteObjects: 0.018900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000784 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.005 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1125 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.0 MB.
+System memory in use after: 65.1 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1667.
+Total: 2.368200 ms (FindLiveObjects: 0.309900 ms CreateObjectMapping: 0.118000 ms MarkObjects: 1.875600 ms  DeleteObjects: 0.063200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001484 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.973 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1125 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.0 MB.
+System memory in use after: 65.1 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1670.
+Total: 1.974500 ms (FindLiveObjects: 0.291700 ms CreateObjectMapping: 0.054300 ms MarkObjects: 1.577000 ms  DeleteObjects: 0.049800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000643 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.976 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1125 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.0 MB.
+System memory in use after: 65.1 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1673.
+Total: 2.461000 ms (FindLiveObjects: 0.304300 ms CreateObjectMapping: 0.057800 ms MarkObjects: 2.079900 ms  DeleteObjects: 0.017500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 34239.728652 seconds.
+  path: Assets/EnemyShip.prefab
+  artifactKey: Guid(7f5de218d113f2648ab7871e3efa83ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyShip.prefab using Guid(7f5de218d113f2648ab7871e3efa83ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5ad4c5b8dbdeccae0800801e8f681d1') in 0.178154 seconds
+  Import took 0.182519 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000866 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.197 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1125 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.1 MB.
+System memory in use after: 65.2 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1678.
+Total: 2.977600 ms (FindLiveObjects: 0.419800 ms CreateObjectMapping: 0.185000 ms MarkObjects: 2.348500 ms  DeleteObjects: 0.022300 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
