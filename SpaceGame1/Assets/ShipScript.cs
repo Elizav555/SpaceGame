@@ -12,20 +12,19 @@ public class ShipScript : MonoBehaviour
     public float shotDelay;
     public float speed;
     public float tilt;
-    public float xMin, xMax, zMin, zMax;
-
+    public float xMin, xMax, zMin, zMax;     
     Rigidbody Ship;
 
-
+    
     // Start is called before the first frame update
     void Start()
-    {
+    {       
         Ship = GetComponent<Rigidbody>();
     }
 
     // Update is called once per frame
     void Update()
-    {
+    {       
         if (!GameController.IsStarted())
         {
             return;
@@ -51,6 +50,7 @@ public class ShipScript : MonoBehaviour
         // Стрелять
         if (Time.time > nextShotTime && Input.GetButton("Fire1"))
         {
+            GameController.Immune = false;
             Instantiate(LaserShot, LaserGun.transform.position, Quaternion.identity);
             Instantiate(LaserShot, LeftGun.transform.position, Quaternion.identity);
             Instantiate(LaserShot, RightGun.transform.position, Quaternion.identity);
