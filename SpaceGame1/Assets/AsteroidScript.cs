@@ -22,11 +22,7 @@ public class AsteroidScript : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-<<<<<<< HEAD
         if (other.CompareTag("Asteroid"))
-=======
-        if (other.tag == "Asteroid")
->>>>>>> a8ac47740170d74f6333f2a4b7f9d81f61b4d9aa
         {
             return;
         }
