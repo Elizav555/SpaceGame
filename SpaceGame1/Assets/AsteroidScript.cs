@@ -17,20 +17,24 @@ public class AsteroidScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.tag == "Asteroid" || other.tag == "EnemyShip")
+        if (other.CompareTag("Asteroid"))
         {
             return;
         }
         Instantiate(AsteroidExplosion, transform.position, Quaternion.identity);
-        if (other.tag == "Player")
+        if (other.CompareTag("Player"))
         {
-            Instantiate(PlayerExplosion, other.transform.position, Quaternion.identity);
-            GameController.PlayerIsDead();
+            if (!GameController.Immune)
+            {
+                Instantiate(PlayerExplosion, other.transform.position, Quaternion.identity);
+                GameController.health--;
+                GameController.PlayerIsDead();
+            }
         }
         else
         {
@@ -38,6 +42,6 @@ public class AsteroidScript : MonoBehaviour
             Destroy(other.gameObject);
         }
         Destroy(gameObject);
-        
+
     }
 }

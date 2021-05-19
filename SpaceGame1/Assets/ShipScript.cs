@@ -8,12 +8,12 @@ public class ShipScript : MonoBehaviour
     public GameObject RightGun;
     public GameObject LeftGun;
     public GameObject LaserShot;
+    public GameObject PlayerExplosion;
     float nextShotTime;
     public float shotDelay;
     public float speed;
     public float tilt;
     public float xMin, xMax, zMin, zMax;
-
     Rigidbody Ship;
 
 
@@ -30,16 +30,13 @@ public class ShipScript : MonoBehaviour
         {
             return;
         }
-        // 
-        // Лететь влево или вправо
-        // Лететь вперед или назад
 
-        float moveHorizontal = Input.GetAxis("Horizontal"); // Лететь влево или вправо // -1 ... +1
-        float moveVertical = Input.GetAxis("Vertical"); // Лететь вперед или назад
+
+        float moveHorizontal = Input.GetAxis("Horizontal");
+        float moveVertical = Input.GetAxis("Vertical");
         Ship.velocity = new Vector3(moveHorizontal, 0, moveVertical) * speed;
 
-        // По оси Икс = наклон крыльев влево/вправо (Тангаж)
-        // По оси Зет = наклон носа вперед/назад (Крен)
+
         Ship.rotation = Quaternion.Euler(tilt * Ship.velocity.z, 0, -Ship.velocity.x * tilt);
 
 
@@ -48,13 +45,27 @@ public class ShipScript : MonoBehaviour
 
         Ship.position = new Vector3(correctX, 0, correctZ);
 
-        // Стрелять
         if (Time.time > nextShotTime && Input.GetButton("Fire1") || Input.GetKeyUp(KeyCode.Space))
         {
+            GameController.Immune = false;
             Instantiate(LaserShot, LaserGun.transform.position, Quaternion.identity);
             Instantiate(LaserShot, LeftGun.transform.position, Quaternion.identity);
             Instantiate(LaserShot, RightGun.transform.position, Quaternion.identity);
             nextShotTime = shotDelay + Time.time;
+        }
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("EnemyShot"))
+        {
+            Destroy(other.gameObject);
+            if (!GameController.Immune)
+            {
+                Instantiate(PlayerExplosion, other.transform.position, Quaternion.identity);
+                GameController.health--;
+                GameController.PlayerIsDead();
+            }
         }
     }
 }

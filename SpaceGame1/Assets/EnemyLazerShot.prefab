@@ -95,7 +95,7 @@ GameObject:
   - component: {fileID: 7567969136806130508}
   m_Layer: 0
   m_Name: EnemyLazerShot
-  m_TagString: Untagged
+  m_TagString: EnemyShot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -144,7 +144,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b37b9f8be15cbc48a353e4baf987596, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 50
+  speed: 70
 --- !u!136 &7567969136806130508
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -153,7 +153,7 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8827129073029864129}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.5
   m_Height: 5.5

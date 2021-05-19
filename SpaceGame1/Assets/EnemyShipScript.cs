@@ -19,16 +19,12 @@ public class EnemyShipScript : MonoBehaviour
 
     void Start()
     {
-        Rigidbody EnemyShip = GetComponent<Rigidbody>();
+        //Rigidbody EnemyShip = GetComponent<Rigidbody>();
+        
     }
 
     void Update()
     {
-        //EnemyShip.velocity = new Vector3(moveHorizontal, 0, moveVertical) * speed;
-        if (!GameController.IsStarted())
-        {
-            return;
-        }
 
         if (Time.time > nextShotTime)
         {
@@ -38,10 +34,31 @@ public class EnemyShipScript : MonoBehaviour
             Instantiate(EnemyLaserShot, LeftEnemyGun.transform.position, Quaternion.identity);
             nextShotTime = shotDelay + Time.time;
         }
+
     }
 
     private void OnTriggerEnter(Collider other)
     {
-       
+        if (other.CompareTag("Asteroid"))
+        {
+            return;
+        }
+        if (other.CompareTag("Player"))
+        {
+            Instantiate(EnemyShipExplosion, transform.position, Quaternion.identity);
+            Destroy(this.gameObject);
+            if (!GameController.Immune)
+            {
+                Instantiate(PlayerExplosion, other.transform.position, Quaternion.identity);
+                GameController.health--;
+                GameController.PlayerIsDead();
+            }
+            
+        }
+        if (other.CompareTag("LaserShot"))
+        {
+            Instantiate(EnemyShipExplosion, transform.position, Quaternion.identity);
+            Destroy(this.gameObject);
+        }
     }
 }
