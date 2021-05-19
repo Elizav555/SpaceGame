@@ -30,13 +30,22 @@ public class ShipScript : MonoBehaviour
         {
             return;
         }
+<<<<<<< HEAD
 
 
+=======
+       
+
+>>>>>>> a8ac47740170d74f6333f2a4b7f9d81f61b4d9aa
         float moveHorizontal = Input.GetAxis("Horizontal");
         float moveVertical = Input.GetAxis("Vertical");
         Ship.velocity = new Vector3(moveHorizontal, 0, moveVertical) * speed;
 
+<<<<<<< HEAD
 
+=======
+      
+>>>>>>> a8ac47740170d74f6333f2a4b7f9d81f61b4d9aa
         Ship.rotation = Quaternion.Euler(tilt * Ship.velocity.z, 0, -Ship.velocity.x * tilt);
 
 
@@ -45,7 +54,11 @@ public class ShipScript : MonoBehaviour
 
         Ship.position = new Vector3(correctX, 0, correctZ);
 
+<<<<<<< HEAD
         if (Time.time > nextShotTime && Input.GetButton("Fire1") || Input.GetKeyUp(KeyCode.Space))
+=======
+        if (Time.time > nextShotTime && Input.GetButton("Fire1"))
+>>>>>>> a8ac47740170d74f6333f2a4b7f9d81f61b4d9aa
         {
             GameController.Immune = false;
             Instantiate(LaserShot, LaserGun.transform.position, Quaternion.identity);

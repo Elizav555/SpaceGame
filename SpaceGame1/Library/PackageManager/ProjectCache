@@ -1,20 +1,36 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
+<<<<<<< HEAD
     m_FilePath: D:/SpaceGame/SpaceGame1/Packages/manifest.json
+=======
+    m_FilePath: I:/Programm/Git/SpaceGame/SpaceGame/SpaceGame1/Packages/manifest.json
+>>>>>>> a8ac47740170d74f6333f2a4b7f9d81f61b4d9aa
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
+<<<<<<< HEAD
       ticks: 637569527307031850
     m_Hash: 3086559985
   m_LockFileStatus:
     m_FilePath: D:/SpaceGame/SpaceGame1/Packages/packages-lock.json
+=======
+      ticks: 637569210925948383
+    m_Hash: 256059767
+  m_LockFileStatus:
+    m_FilePath: I:/Programm/Git/SpaceGame/SpaceGame/SpaceGame1/Packages/packages-lock.json
+>>>>>>> a8ac47740170d74f6333f2a4b7f9d81f61b4d9aa
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
+<<<<<<< HEAD
       ticks: 637569527306315403
     m_Hash: 1889107499
+=======
+      ticks: 637569210925948383
+    m_Hash: 1054297730
+>>>>>>> a8ac47740170d74f6333f2a4b7f9d81f61b4d9aa
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
@@ -25,7 +41,11 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.3.9
       source: 1
+<<<<<<< HEAD
       resolvedPath: D:\SpaceGame\SpaceGame1\Library\PackageCache\com.unity.collab-proxy@1.3.9
+=======
+      resolvedPath: I:\Programm\Git\SpaceGame\SpaceGame\SpaceGame1\Library\PackageCache\com.unity.collab-proxy@1.3.9
+>>>>>>> a8ac47740170d74f6333f2a4b7f9d81f61b4d9aa
       assetPath: Packages/com.unity.collab-proxy
       name: com.unity.collab-proxy
       displayName: Unity Collaborate
@@ -42,23 +62,8 @@ m_PackageAssets:
       errors: []
       versions:
         all:
-        - 1.2.3-preview
-        - 1.2.4-preview
-        - 1.2.6
-        - 1.2.7
-        - 1.2.9
-        - 1.2.11
-        - 1.2.15
-        - 1.2.16
-        - 1.2.17-preview.3
-        - 1.3.2
-        - 1.3.3
-        - 1.3.4
-        - 1.3.5
-        - 1.3.6
-        - 1.3.7
-        - 1.3.8
         - 1.3.9
+<<<<<<< HEAD
         - 2.0.0-preview.6
         - 2.0.0-preview.8
         - 2.0.0-preview.15
@@ -81,6 +86,10 @@ m_PackageAssets:
         - 2.1.0-preview.3
         - 2.1.0-preview.5
         - 2.1.0-preview.6
+=======
+        compatible:
+        - 1.3.9
+>>>>>>> a8ac47740170d74f6333f2a4b7f9d81f61b4d9aa
         verified: 1.3.9
       dependencies: []
       resolvedDependencies: []
@@ -107,7 +116,7 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637314349270000000
+      datePublishedTicks: 0
       documentationUrl: 
       hasRepository: 1
       repository:
@@ -120,7 +129,11 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 2.0.7
       source: 1
+<<<<<<< HEAD
       resolvedPath: D:\SpaceGame\SpaceGame1\Library\PackageCache\com.unity.ide.rider@2.0.7
+=======
+      resolvedPath: I:\Programm\Git\SpaceGame\SpaceGame\SpaceGame1\Library\PackageCache\com.unity.ide.rider@2.0.7
+>>>>>>> a8ac47740170d74f6333f2a4b7f9d81f61b4d9aa
       assetPath: Packages/com.unity.ide.rider
       name: com.unity.ide.rider
       displayName: JetBrains Rider Editor
@@ -137,53 +150,25 @@ m_PackageAssets:
       errors: []
       versions:
         all:
-        - 1.0.2
-        - 1.0.6
-        - 1.0.8
-        - 1.1.0
-        - 1.1.1
-        - 1.1.2-preview
-        - 1.1.2-preview.2
-        - 1.1.3-preview.1
-        - 1.1.4-preview
-        - 1.1.4
-        - 1.2.0-preview
-        - 1.2.1
-        - 2.0.0-preview
-        - 2.0.1
-        - 2.0.2
-        - 2.0.3
-        - 2.0.5
         - 2.0.7
+<<<<<<< HEAD
         - 3.0.1
         - 3.0.2
         - 3.0.3
         - 3.0.4
         - 3.0.5
+=======
+>>>>>>> a8ac47740170d74f6333f2a4b7f9d81f61b4d9aa
         compatible:
-        - 1.0.2
-        - 1.0.6
-        - 1.0.8
-        - 1.1.0
-        - 1.1.1
-        - 1.1.2-preview
-        - 1.1.2-preview.2
-        - 1.1.3-preview.1
-        - 1.1.4-preview
-        - 1.1.4
-        - 1.2.0-preview
-        - 1.2.1
-        - 2.0.0-preview
-        - 2.0.1
-        - 2.0.2
-        - 2.0.3
-        - 2.0.5
         - 2.0.7
+<<<<<<< HEAD
         - 3.0.1
         - 3.0.2
         - 3.0.3
         - 3.0.4
         - 3.0.5
+=======
+>>>>>>> a8ac47740170d74f6333f2a4b7f9d81f61b4d9aa
         verified: 2.0.7
       dependencies:
       - name: com.unity.test-framework
@@ -210,7 +195,7 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637334461080000000
+      datePublishedTicks: 0
       documentationUrl: 
       hasRepository: 1
       repository:
@@ -223,7 +208,11 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 2.0.7
       source: 1
+<<<<<<< HEAD
       resolvedPath: D:\SpaceGame\SpaceGame1\Library\PackageCache\com.unity.ide.visualstudio@2.0.7
+=======
+      resolvedPath: I:\Programm\Git\SpaceGame\SpaceGame\SpaceGame1\Library\PackageCache\com.unity.ide.visualstudio@2.0.7
+>>>>>>> a8ac47740170d74f6333f2a4b7f9d81f61b4d9aa
       assetPath: Packages/com.unity.ide.visualstudio
       name: com.unity.ide.visualstudio
       displayName: Visual Studio Editor
@@ -240,30 +229,8 @@ m_PackageAssets:
       errors: []
       versions:
         all:
-        - 1.0.2
-        - 1.0.3
-        - 1.0.4
-        - 1.0.9
-        - 1.0.10
-        - 1.0.11
-        - 2.0.0
-        - 2.0.1
-        - 2.0.2
-        - 2.0.3
-        - 2.0.5
         - 2.0.7
         compatible:
-        - 1.0.2
-        - 1.0.3
-        - 1.0.4
-        - 1.0.9
-        - 1.0.10
-        - 1.0.11
-        - 2.0.0
-        - 2.0.1
-        - 2.0.2
-        - 2.0.3
-        - 2.0.5
         - 2.0.7
         verified: 2.0.7
       dependencies:
@@ -291,7 +258,7 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637486638490000000
+      datePublishedTicks: 0
       documentationUrl: 
       hasRepository: 1
       repository:
@@ -304,7 +271,11 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.2.3
       source: 1
+<<<<<<< HEAD
       resolvedPath: D:\SpaceGame\SpaceGame1\Library\PackageCache\com.unity.ide.vscode@1.2.3
+=======
+      resolvedPath: I:\Programm\Git\SpaceGame\SpaceGame\SpaceGame1\Library\PackageCache\com.unity.ide.vscode@1.2.3
+>>>>>>> a8ac47740170d74f6333f2a4b7f9d81f61b4d9aa
       assetPath: Packages/com.unity.ide.vscode
       name: com.unity.ide.vscode
       displayName: Visual Studio Code Editor
@@ -321,28 +292,8 @@ m_PackageAssets:
       errors: []
       versions:
         all:
-        - 1.0.2
-        - 1.0.3
-        - 1.0.7
-        - 1.1.0
-        - 1.1.2
-        - 1.1.3
-        - 1.1.4
-        - 1.2.0
-        - 1.2.1
-        - 1.2.2
         - 1.2.3
         compatible:
-        - 1.0.2
-        - 1.0.3
-        - 1.0.7
-        - 1.1.0
-        - 1.1.2
-        - 1.1.3
-        - 1.1.4
-        - 1.2.0
-        - 1.2.1
-        - 1.2.2
         - 1.2.3
         verified: 1.2.3
       dependencies: []
@@ -360,20 +311,24 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637394922300000000
+      datePublishedTicks: 0
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
         url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.vscode.git
-        revision: b5ec9b38109e52b1b26597d521e4df75e042ebb9
+        revision: 547f63839bdc87e0aed2c9e0d84f8f6336a83ea3
         path: 
     - packageId: com.unity.test-framework@1.1.24
       testable: 0
       isDirectDependency: 1
       version: 1.1.24
       source: 1
+<<<<<<< HEAD
       resolvedPath: D:\SpaceGame\SpaceGame1\Library\PackageCache\com.unity.test-framework@1.1.24
+=======
+      resolvedPath: I:\Programm\Git\SpaceGame\SpaceGame\SpaceGame1\Library\PackageCache\com.unity.test-framework@1.1.24
+>>>>>>> a8ac47740170d74f6333f2a4b7f9d81f61b4d9aa
       assetPath: Packages/com.unity.test-framework
       name: com.unity.test-framework
       displayName: Test Framework
@@ -388,33 +343,6 @@ m_PackageAssets:
       errors: []
       versions:
         all:
-        - 0.0.4-preview
-        - 0.0.29-preview
-        - 1.0.0
-        - 1.0.7
-        - 1.0.9
-        - 1.0.11
-        - 1.0.12
-        - 1.0.13
-        - 1.0.14
-        - 1.0.16
-        - 1.0.17
-        - 1.0.18
-        - 1.1.0
-        - 1.1.1
-        - 1.1.2
-        - 1.1.3
-        - 1.1.5
-        - 1.1.8
-        - 1.1.9
-        - 1.1.11
-        - 1.1.13
-        - 1.1.14
-        - 1.1.16
-        - 1.1.18
-        - 1.1.19
-        - 1.1.20
-        - 1.1.22
         - 1.1.24
         compatible:
         - 1.1.24
@@ -448,12 +376,12 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637505702940000000
+      datePublishedTicks: 0
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
-        url: git+https://github.com/Unity-Technologies/com.unity.test-framework.git
+        url: https://github.com/Unity-Technologies/com.unity.test-framework.git
         revision: e6fe8892689398c0d9aba4587e0ba69edc3d82b8
         path: 
     - packageId: com.unity.textmeshpro@3.0.4
@@ -461,7 +389,11 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 3.0.4
       source: 1
+<<<<<<< HEAD
       resolvedPath: D:\SpaceGame\SpaceGame1\Library\PackageCache\com.unity.textmeshpro@3.0.4
+=======
+      resolvedPath: I:\Programm\Git\SpaceGame\SpaceGame\SpaceGame1\Library\PackageCache\com.unity.textmeshpro@3.0.4
+>>>>>>> a8ac47740170d74f6333f2a4b7f9d81f61b4d9aa
       assetPath: Packages/com.unity.textmeshpro
       name: com.unity.textmeshpro
       displayName: TextMeshPro
@@ -496,6 +428,7 @@ m_PackageAssets:
       errors: []
       versions:
         all:
+<<<<<<< HEAD
         - 0.1.2
         - 1.0.21
         - 1.0.23
@@ -565,10 +498,10 @@ m_PackageAssets:
         - 3.0.0
         - 3.0.1
         - 3.0.3
+=======
+>>>>>>> a8ac47740170d74f6333f2a4b7f9d81f61b4d9aa
         - 3.0.4
         compatible:
-        - 3.0.1
-        - 3.0.3
         - 3.0.4
         verified: 3.0.4
       dependencies:
@@ -599,7 +532,7 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637492944820000000
+      datePublishedTicks: 0
       documentationUrl: 
       hasRepository: 1
       repository:
@@ -612,7 +545,11 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.4.6
       source: 1
+<<<<<<< HEAD
       resolvedPath: D:\SpaceGame\SpaceGame1\Library\PackageCache\com.unity.timeline@1.4.6
+=======
+      resolvedPath: I:\Programm\Git\SpaceGame\SpaceGame\SpaceGame1\Library\PackageCache\com.unity.timeline@1.4.6
+>>>>>>> a8ac47740170d74f6333f2a4b7f9d81f61b4d9aa
       assetPath: Packages/com.unity.timeline
       name: com.unity.timeline
       displayName: Timeline
@@ -628,50 +565,8 @@ m_PackageAssets:
       errors: []
       versions:
         all:
-        - 1.2.0
-        - 1.2.1
-        - 1.2.2
-        - 1.2.3
-        - 1.2.4
-        - 1.2.5
-        - 1.2.6
-        - 1.2.7
-        - 1.2.9
-        - 1.2.10
-        - 1.2.11
-        - 1.2.12
-        - 1.2.13
-        - 1.2.14
-        - 1.2.15
-        - 1.2.16
-        - 1.2.17
-        - 1.2.18
-        - 1.3.0-preview.2
-        - 1.3.0-preview.3
-        - 1.3.0-preview.5
-        - 1.3.0-preview.6
-        - 1.3.0-preview.7
-        - 1.3.0
-        - 1.3.1
-        - 1.3.2
-        - 1.3.3
-        - 1.3.4
-        - 1.3.5
-        - 1.3.6
-        - 1.3.7
-        - 1.4.0-preview.1
-        - 1.4.0-preview.2
-        - 1.4.0-preview.3
-        - 1.4.0-preview.5
-        - 1.4.0-preview.6
-        - 1.4.0-preview.7
-        - 1.4.0
-        - 1.4.1
-        - 1.4.2
-        - 1.4.3
-        - 1.4.4
-        - 1.4.5
         - 1.4.6
+<<<<<<< HEAD
         - 1.4.7
         - 1.5.0-pre.2
         - 1.5.0-preview.1
@@ -703,6 +598,11 @@ m_PackageAssets:
         - 1.6.0-pre.1
         - 1.6.0-pre.3
         verified: 1.4.7
+=======
+        compatible:
+        - 1.4.6
+        verified: 1.4.6
+>>>>>>> a8ac47740170d74f6333f2a4b7f9d81f61b4d9aa
       dependencies:
       - name: com.unity.modules.director
         version: 1.0.0
@@ -739,7 +639,7 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637463150940000000
+      datePublishedTicks: 0
       documentationUrl: 
       hasRepository: 1
       repository:
@@ -752,7 +652,11 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
+<<<<<<< HEAD
       resolvedPath: D:\Unity Hub\Unity\Hub\Editor\2020.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui
+=======
+      resolvedPath: I:\Programm\Unity\2020.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui
+>>>>>>> a8ac47740170d74f6333f2a4b7f9d81f61b4d9aa
       assetPath: Packages/com.unity.ugui
       name: com.unity.ugui
       displayName: Unity UI
@@ -815,7 +719,11 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
+<<<<<<< HEAD
       resolvedPath: D:\Unity Hub\Unity\Hub\Editor\2020.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.ai
+=======
+      resolvedPath: I:\Programm\Unity\2020.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.ai
+>>>>>>> a8ac47740170d74f6333f2a4b7f9d81f61b4d9aa
       assetPath: Packages/com.unity.modules.ai
       name: com.unity.modules.ai
       displayName: AI
@@ -863,7 +771,11 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
+<<<<<<< HEAD
       resolvedPath: D:\Unity Hub\Unity\Hub\Editor\2020.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.androidjni
+=======
+      resolvedPath: I:\Programm\Unity\2020.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.androidjni
+>>>>>>> a8ac47740170d74f6333f2a4b7f9d81f61b4d9aa
       assetPath: Packages/com.unity.modules.androidjni
       name: com.unity.modules.androidjni
       displayName: Android JNI
@@ -911,7 +823,11 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
+<<<<<<< HEAD
       resolvedPath: D:\Unity Hub\Unity\Hub\Editor\2020.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.animation
+=======
+      resolvedPath: I:\Programm\Unity\2020.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.animation
+>>>>>>> a8ac47740170d74f6333f2a4b7f9d81f61b4d9aa
       assetPath: Packages/com.unity.modules.animation
       name: com.unity.modules.animation
       displayName: Animation
@@ -959,7 +875,11 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
+<<<<<<< HEAD
       resolvedPath: D:\Unity Hub\Unity\Hub\Editor\2020.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.assetbundle
+=======
+      resolvedPath: I:\Programm\Unity\2020.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.assetbundle
+>>>>>>> a8ac47740170d74f6333f2a4b7f9d81f61b4d9aa
       assetPath: Packages/com.unity.modules.assetbundle
       name: com.unity.modules.assetbundle
       displayName: Asset Bundle
@@ -1007,7 +927,11 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
+<<<<<<< HEAD
       resolvedPath: D:\Unity Hub\Unity\Hub\Editor\2020.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.audio
+=======
+      resolvedPath: I:\Programm\Unity\2020.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.audio
+>>>>>>> a8ac47740170d74f6333f2a4b7f9d81f61b4d9aa
       assetPath: Packages/com.unity.modules.audio
       name: com.unity.modules.audio
       displayName: Audio
@@ -1055,7 +979,11 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
+<<<<<<< HEAD
       resolvedPath: D:\Unity Hub\Unity\Hub\Editor\2020.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.cloth
+=======
+      resolvedPath: I:\Programm\Unity\2020.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.cloth
+>>>>>>> a8ac47740170d74f6333f2a4b7f9d81f61b4d9aa
       assetPath: Packages/com.unity.modules.cloth
       name: com.unity.modules.cloth
       displayName: Cloth
@@ -1107,7 +1035,11 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
+<<<<<<< HEAD
       resolvedPath: D:\Unity Hub\Unity\Hub\Editor\2020.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.director
+=======
+      resolvedPath: I:\Programm\Unity\2020.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.director
+>>>>>>> a8ac47740170d74f6333f2a4b7f9d81f61b4d9aa
       assetPath: Packages/com.unity.modules.director
       name: com.unity.modules.director
       displayName: Director
@@ -1163,7 +1095,11 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
+<<<<<<< HEAD
       resolvedPath: D:\Unity Hub\Unity\Hub\Editor\2020.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.imageconversion
+=======
+      resolvedPath: I:\Programm\Unity\2020.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.imageconversion
+>>>>>>> a8ac47740170d74f6333f2a4b7f9d81f61b4d9aa
       assetPath: Packages/com.unity.modules.imageconversion
       name: com.unity.modules.imageconversion
       displayName: Image Conversion
@@ -1212,7 +1148,11 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
+<<<<<<< HEAD
       resolvedPath: D:\Unity Hub\Unity\Hub\Editor\2020.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.imgui
+=======
+      resolvedPath: I:\Programm\Unity\2020.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.imgui
+>>>>>>> a8ac47740170d74f6333f2a4b7f9d81f61b4d9aa
       assetPath: Packages/com.unity.modules.imgui
       name: com.unity.modules.imgui
       displayName: IMGUI
@@ -1260,7 +1200,11 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
+<<<<<<< HEAD
       resolvedPath: D:\Unity Hub\Unity\Hub\Editor\2020.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.jsonserialize
+=======
+      resolvedPath: I:\Programm\Unity\2020.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.jsonserialize
+>>>>>>> a8ac47740170d74f6333f2a4b7f9d81f61b4d9aa
       assetPath: Packages/com.unity.modules.jsonserialize
       name: com.unity.modules.jsonserialize
       displayName: JSONSerialize
@@ -1308,7 +1252,11 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
+<<<<<<< HEAD
       resolvedPath: D:\Unity Hub\Unity\Hub\Editor\2020.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.particlesystem
+=======
+      resolvedPath: I:\Programm\Unity\2020.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.particlesystem
+>>>>>>> a8ac47740170d74f6333f2a4b7f9d81f61b4d9aa
       assetPath: Packages/com.unity.modules.particlesystem
       name: com.unity.modules.particlesystem
       displayName: Particle System
@@ -1356,7 +1304,11 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
+<<<<<<< HEAD
       resolvedPath: D:\Unity Hub\Unity\Hub\Editor\2020.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.physics
+=======
+      resolvedPath: I:\Programm\Unity\2020.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.physics
+>>>>>>> a8ac47740170d74f6333f2a4b7f9d81f61b4d9aa
       assetPath: Packages/com.unity.modules.physics
       name: com.unity.modules.physics
       displayName: Physics
@@ -1404,7 +1356,11 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
+<<<<<<< HEAD
       resolvedPath: D:\Unity Hub\Unity\Hub\Editor\2020.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.physics2d
+=======
+      resolvedPath: I:\Programm\Unity\2020.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.physics2d
+>>>>>>> a8ac47740170d74f6333f2a4b7f9d81f61b4d9aa
       assetPath: Packages/com.unity.modules.physics2d
       name: com.unity.modules.physics2d
       displayName: Physics 2D
@@ -1452,7 +1408,11 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
+<<<<<<< HEAD
       resolvedPath: D:\Unity Hub\Unity\Hub\Editor\2020.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.screencapture
+=======
+      resolvedPath: I:\Programm\Unity\2020.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.screencapture
+>>>>>>> a8ac47740170d74f6333f2a4b7f9d81f61b4d9aa
       assetPath: Packages/com.unity.modules.screencapture
       name: com.unity.modules.screencapture
       displayName: Screen Capture
@@ -1504,7 +1464,11 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
+<<<<<<< HEAD
       resolvedPath: D:\Unity Hub\Unity\Hub\Editor\2020.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.terrain
+=======
+      resolvedPath: I:\Programm\Unity\2020.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.terrain
+>>>>>>> a8ac47740170d74f6333f2a4b7f9d81f61b4d9aa
       assetPath: Packages/com.unity.modules.terrain
       name: com.unity.modules.terrain
       displayName: Terrain
@@ -1552,7 +1516,11 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
+<<<<<<< HEAD
       resolvedPath: D:\Unity Hub\Unity\Hub\Editor\2020.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.terrainphysics
+=======
+      resolvedPath: I:\Programm\Unity\2020.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.terrainphysics
+>>>>>>> a8ac47740170d74f6333f2a4b7f9d81f61b4d9aa
       assetPath: Packages/com.unity.modules.terrainphysics
       name: com.unity.modules.terrainphysics
       displayName: Terrain Physics
@@ -1608,7 +1576,11 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
+<<<<<<< HEAD
       resolvedPath: D:\Unity Hub\Unity\Hub\Editor\2020.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.tilemap
+=======
+      resolvedPath: I:\Programm\Unity\2020.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.tilemap
+>>>>>>> a8ac47740170d74f6333f2a4b7f9d81f61b4d9aa
       assetPath: Packages/com.unity.modules.tilemap
       name: com.unity.modules.tilemap
       displayName: Tilemap
@@ -1660,7 +1632,11 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
+<<<<<<< HEAD
       resolvedPath: D:\Unity Hub\Unity\Hub\Editor\2020.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.ui
+=======
+      resolvedPath: I:\Programm\Unity\2020.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.ui
+>>>>>>> a8ac47740170d74f6333f2a4b7f9d81f61b4d9aa
       assetPath: Packages/com.unity.modules.ui
       name: com.unity.modules.ui
       displayName: UI
@@ -1708,7 +1684,11 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
+<<<<<<< HEAD
       resolvedPath: D:\Unity Hub\Unity\Hub\Editor\2020.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.uielements
+=======
+      resolvedPath: I:\Programm\Unity\2020.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.uielements
+>>>>>>> a8ac47740170d74f6333f2a4b7f9d81f61b4d9aa
       assetPath: Packages/com.unity.modules.uielements
       name: com.unity.modules.uielements
       displayName: UIElements
@@ -1772,7 +1752,11 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
+<<<<<<< HEAD
       resolvedPath: D:\Unity Hub\Unity\Hub\Editor\2020.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.umbra
+=======
+      resolvedPath: I:\Programm\Unity\2020.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.umbra
+>>>>>>> a8ac47740170d74f6333f2a4b7f9d81f61b4d9aa
       assetPath: Packages/com.unity.modules.umbra
       name: com.unity.modules.umbra
       displayName: Umbra
@@ -1820,7 +1804,11 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
+<<<<<<< HEAD
       resolvedPath: D:\Unity Hub\Unity\Hub\Editor\2020.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unityanalytics
+=======
+      resolvedPath: I:\Programm\Unity\2020.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unityanalytics
+>>>>>>> a8ac47740170d74f6333f2a4b7f9d81f61b4d9aa
       assetPath: Packages/com.unity.modules.unityanalytics
       name: com.unity.modules.unityanalytics
       displayName: Unity Analytics
@@ -1876,7 +1864,11 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
+<<<<<<< HEAD
       resolvedPath: D:\Unity Hub\Unity\Hub\Editor\2020.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequest
+=======
+      resolvedPath: I:\Programm\Unity\2020.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequest
+>>>>>>> a8ac47740170d74f6333f2a4b7f9d81f61b4d9aa
       assetPath: Packages/com.unity.modules.unitywebrequest
       name: com.unity.modules.unitywebrequest
       displayName: Unity Web Request
@@ -1924,7 +1916,11 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
+<<<<<<< HEAD
       resolvedPath: D:\Unity Hub\Unity\Hub\Editor\2020.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestassetbundle
+=======
+      resolvedPath: I:\Programm\Unity\2020.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestassetbundle
+>>>>>>> a8ac47740170d74f6333f2a4b7f9d81f61b4d9aa
       assetPath: Packages/com.unity.modules.unitywebrequestassetbundle
       name: com.unity.modules.unitywebrequestassetbundle
       displayName: Unity Web Request Asset Bundle
@@ -1980,7 +1976,11 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
+<<<<<<< HEAD
       resolvedPath: D:\Unity Hub\Unity\Hub\Editor\2020.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestaudio
+=======
+      resolvedPath: I:\Programm\Unity\2020.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestaudio
+>>>>>>> a8ac47740170d74f6333f2a4b7f9d81f61b4d9aa
       assetPath: Packages/com.unity.modules.unitywebrequestaudio
       name: com.unity.modules.unitywebrequestaudio
       displayName: Unity Web Request Audio
@@ -2036,7 +2036,11 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
+<<<<<<< HEAD
       resolvedPath: D:\Unity Hub\Unity\Hub\Editor\2020.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequesttexture
+=======
+      resolvedPath: I:\Programm\Unity\2020.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequesttexture
+>>>>>>> a8ac47740170d74f6333f2a4b7f9d81f61b4d9aa
       assetPath: Packages/com.unity.modules.unitywebrequesttexture
       name: com.unity.modules.unitywebrequesttexture
       displayName: Unity Web Request Texture
@@ -2092,7 +2096,11 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
+<<<<<<< HEAD
       resolvedPath: D:\Unity Hub\Unity\Hub\Editor\2020.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestwww
+=======
+      resolvedPath: I:\Programm\Unity\2020.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestwww
+>>>>>>> a8ac47740170d74f6333f2a4b7f9d81f61b4d9aa
       assetPath: Packages/com.unity.modules.unitywebrequestwww
       name: com.unity.modules.unitywebrequestwww
       displayName: Unity Web Request WWW
@@ -2164,7 +2172,11 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
+<<<<<<< HEAD
       resolvedPath: D:\Unity Hub\Unity\Hub\Editor\2020.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.vehicles
+=======
+      resolvedPath: I:\Programm\Unity\2020.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.vehicles
+>>>>>>> a8ac47740170d74f6333f2a4b7f9d81f61b4d9aa
       assetPath: Packages/com.unity.modules.vehicles
       name: com.unity.modules.vehicles
       displayName: Vehicles
@@ -2216,7 +2228,11 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
+<<<<<<< HEAD
       resolvedPath: D:\Unity Hub\Unity\Hub\Editor\2020.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.video
+=======
+      resolvedPath: I:\Programm\Unity\2020.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.video
+>>>>>>> a8ac47740170d74f6333f2a4b7f9d81f61b4d9aa
       assetPath: Packages/com.unity.modules.video
       name: com.unity.modules.video
       displayName: Video
@@ -2276,7 +2292,11 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
+<<<<<<< HEAD
       resolvedPath: D:\Unity Hub\Unity\Hub\Editor\2020.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.vr
+=======
+      resolvedPath: I:\Programm\Unity\2020.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.vr
+>>>>>>> a8ac47740170d74f6333f2a4b7f9d81f61b4d9aa
       assetPath: Packages/com.unity.modules.vr
       name: com.unity.modules.vr
       displayName: VR
@@ -2338,7 +2358,11 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
+<<<<<<< HEAD
       resolvedPath: D:\Unity Hub\Unity\Hub\Editor\2020.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.wind
+=======
+      resolvedPath: I:\Programm\Unity\2020.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.wind
+>>>>>>> a8ac47740170d74f6333f2a4b7f9d81f61b4d9aa
       assetPath: Packages/com.unity.modules.wind
       name: com.unity.modules.wind
       displayName: Wind
@@ -2386,7 +2410,11 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
+<<<<<<< HEAD
       resolvedPath: D:\Unity Hub\Unity\Hub\Editor\2020.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.xr
+=======
+      resolvedPath: I:\Programm\Unity\2020.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.xr
+>>>>>>> a8ac47740170d74f6333f2a4b7f9d81f61b4d9aa
       assetPath: Packages/com.unity.modules.xr
       name: com.unity.modules.xr
       displayName: XR
@@ -2446,7 +2474,11 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.0.0
       source: 2
+<<<<<<< HEAD
       resolvedPath: D:\Unity Hub\Unity\Hub\Editor\2020.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.subsystems
+=======
+      resolvedPath: I:\Programm\Unity\2020.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.subsystems
+>>>>>>> a8ac47740170d74f6333f2a4b7f9d81f61b4d9aa
       assetPath: Packages/com.unity.modules.subsystems
       name: com.unity.modules.subsystems
       displayName: Subsystems
@@ -2498,7 +2530,11 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.0.0
       source: 2
+<<<<<<< HEAD
       resolvedPath: D:\Unity Hub\Unity\Hub\Editor\2020.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.uielementsnative
+=======
+      resolvedPath: I:\Programm\Unity\2020.3.3f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.uielementsnative
+>>>>>>> a8ac47740170d74f6333f2a4b7f9d81f61b4d9aa
       assetPath: Packages/com.unity.modules.uielementsnative
       name: com.unity.modules.uielementsnative
       displayName: UIElements Native
@@ -2557,7 +2593,11 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.0.6
       source: 1
+<<<<<<< HEAD
       resolvedPath: D:\SpaceGame\SpaceGame1\Library\PackageCache\com.unity.ext.nunit@1.0.6
+=======
+      resolvedPath: I:\Programm\Git\SpaceGame\SpaceGame\SpaceGame1\Library\PackageCache\com.unity.ext.nunit@1.0.6
+>>>>>>> a8ac47740170d74f6333f2a4b7f9d81f61b4d9aa
       assetPath: Packages/com.unity.ext.nunit
       name: com.unity.ext.nunit
       displayName: Custom NUnit
@@ -2605,5 +2645,9 @@ m_PackageAssets:
         path: 
   m_LocalPackages:
     m_LocalFileStatus: []
+<<<<<<< HEAD
 m_ProjectPath: D:/SpaceGame/SpaceGame1/Packages
+=======
+m_ProjectPath: I:/Programm/Git/SpaceGame/SpaceGame/SpaceGame1/Packages
+>>>>>>> a8ac47740170d74f6333f2a4b7f9d81f61b4d9aa
 m_EditorVersion: 2020.3.3f1 (76626098c1c4)

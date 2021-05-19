@@ -287,7 +287,10 @@ MonoBehaviour:
   RightGun: {fileID: 302233989}
   LeftGun: {fileID: 372632193}
   LaserShot: {fileID: 807148765324048394, guid: ca816c6b22770614f8540b0994aa598e, type: 3}
+<<<<<<< HEAD
   PlayerExplosion: {fileID: 8133870198303076790, guid: f56c17b67c0ea2a46b257a3a8ba66f73, type: 3}
+=======
+>>>>>>> a8ac47740170d74f6333f2a4b7f9d81f61b4d9aa
   shotDelay: 0.7
   speed: 45
   tilt: 0.5
@@ -3012,6 +3015,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+<<<<<<< HEAD
 --- !u!1 &1903454849
 GameObject:
   m_ObjectHideFlags: 0
@@ -3093,6 +3097,8 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1903454849}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+=======
+>>>>>>> a8ac47740170d74f6333f2a4b7f9d81f61b4d9aa
 --- !u!1 &2011010786
 GameObject:
   m_ObjectHideFlags: 0
