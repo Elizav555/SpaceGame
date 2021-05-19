@@ -29,6 +29,7 @@ public class AsteroidScript : MonoBehaviour
         Instantiate(AsteroidExplosion, transform.position, Quaternion.identity);
         if (other.CompareTag("Player"))
         {
+            Destroy(gameObject);
             if (!GameController.Immune)
             {
                 Instantiate(PlayerExplosion, other.transform.position, Quaternion.identity);
@@ -36,12 +37,13 @@ public class AsteroidScript : MonoBehaviour
                 GameController.PlayerIsDead();
             }
         }
-        else
+        if (other.CompareTag("LaserShot"))
         {
             GameController.increaseScore(+10);
             Destroy(other.gameObject);
+            Destroy(gameObject);
         }
-        Destroy(gameObject);
+        
 
     }
 }

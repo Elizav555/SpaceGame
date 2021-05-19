@@ -5,6 +5,7 @@ using UnityEngine;
 public class GameController : MonoBehaviour
 {
     public UnityEngine.UI.Text scoreLabel;
+    public UnityEngine.UI.Text recordLabel;
     public UnityEngine.UI.Image menu;
     public UnityEngine.UI.Button startButton;
     public UnityEngine.UI.Button respawn;
@@ -15,6 +16,7 @@ public class GameController : MonoBehaviour
     public UnityEngine.Light ImmuneLight;
     private static GameObject player;
     private static int score = 0;
+    private static int record = 0;
     private static bool started = false;
     public static int health = 3;
     private static GameObject respawnButton;
@@ -40,23 +42,28 @@ public class GameController : MonoBehaviour
         respawnButton = respawn.gameObject;
         quitButton = quit.gameObject;
         player = GameObject.FindGameObjectWithTag("Player");
+
         startButton.onClick.AddListener(delegate
         {
-            health = 3;
-            score = 0;
+            recordLabel.gameObject.SetActive(false);
+            health = 3;          
             menu.gameObject.SetActive(false);
             Immune = true;
             started = true;
             player.SetActive(true);
             player.transform.position = new Vector3(0, 0, -72);
             ShowHealth();
+            score = 0;
         });
         quit.onClick.AddListener(delegate
         {
+            recordLabel.gameObject.SetActive(true);
             quit.gameObject.SetActive(false);
             menu.gameObject.SetActive(true);
             ShowHealth();
             started = false;
+            if (score > record) record = score;
+            recordLabel.text = "Рекорд: " + record.ToString();
         });
         respawn.onClick.AddListener(delegate
         {

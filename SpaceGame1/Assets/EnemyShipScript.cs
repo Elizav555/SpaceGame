@@ -58,6 +58,7 @@ public class EnemyShipScript : MonoBehaviour
         if (other.CompareTag("LaserShot"))
         {
             Instantiate(EnemyShipExplosion, transform.position, Quaternion.identity);
+            GameController.increaseScore(+25);
             Destroy(this.gameObject);
         }
     }
